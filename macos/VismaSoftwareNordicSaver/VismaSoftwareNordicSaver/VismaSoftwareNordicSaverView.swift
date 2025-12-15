@@ -32,7 +32,7 @@ final class VismaSoftwareNordicSaverView: ScreenSaverView {
             Keys.displayScale: 0.9,
             Keys.showClock: true,
             Keys.clockFormat: "EEEE dd MMM yyyy HH:mm",
-            Keys.clockFontName: "FiraMono Nerd Font",
+            Keys.clockFontName: "Rubik",
             Keys.clockFontSize: 64.0,
             Keys.shuffle: false,
             Keys.intensity: 0.6,
@@ -47,7 +47,7 @@ final class VismaSoftwareNordicSaverView: ScreenSaverView {
     private var displayScale: CGFloat = 0.9 // 70–100% style margin
     private var showClock: Bool = true
     private var clockFormat: String = "EEEE dd MMM yyyy HH:mm"
-    private var clockFontName: String = "FiraMono Nerd Font"
+    private var clockFontName: String = "Rubik"
     private var clockFontSize: CGFloat = 64
     private var shuffle: Bool = false
     private var intensity: CGFloat = 0.6 // affects zoom/pan strength
@@ -108,7 +108,7 @@ final class VismaSoftwareNordicSaverView: ScreenSaverView {
         displayScale = prefs.object(forKey: Keys.displayScale) as? NSNumber != nil ? CGFloat(prefs.double(forKey: Keys.displayScale)) : 0.9
         showClock = prefs.bool(forKey: Keys.showClock)
         clockFormat = prefs.string(forKey: Keys.clockFormat) ?? "EEEE dd MMM yyyy HH:mm"
-        clockFontName = prefs.string(forKey: Keys.clockFontName) ?? "FiraMono Nerd Font"
+        clockFontName = prefs.string(forKey: Keys.clockFontName) ?? "Rubik"
         let size = prefs.double(forKey: Keys.clockFontSize)
         clockFontSize = size > 0 ? CGFloat(size) : 64
         shuffle = prefs.bool(forKey: Keys.shuffle)

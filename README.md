@@ -112,9 +112,9 @@ Open System Settings → Screen Saver and choose “VismaSoftwareNordicSaver”.
 
 ### Fonts
 
-- **FiraMono Nerd Font** (Regular, Medium, Bold) is already included in `macos/VismaSoftwareNordicSaver/` and will be bundled automatically.
-- The build copies these fonts into the bundle at `Resources/fonts/`; the saver registers them at runtime.
-- In Options, set "Clock Font Family" to `FiraMono Nerd Font` (or add your own `.ttf`/`.otf` files to that folder).
+- **Rubik Bold** is already included in `macos/VismaSoftwareNordicSaver/` and will be bundled automatically.
+- The build copies fonts into the bundle at `Resources/fonts/`; the saver registers them at runtime.
+- In Options, set "Clock Font Family" to `Rubik` (or add your own `.ttf`/`.otf` files to that folder).
 - If the font isn't found, it falls back to a monospaced system font.
 
 ### Notes
