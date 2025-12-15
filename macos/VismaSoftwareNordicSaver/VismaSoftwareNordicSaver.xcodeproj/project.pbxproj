@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E20000012000000000000001 /* VismaSoftwareNordicSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20000022000000000000001 /* VismaSoftwareNordicSaverView.swift */; };
+		E20000052000000000000001 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20000042000000000000001 /* ScreenSaver.framework */; };
+		E20000072000000000000001 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20000062000000000000001 /* AppKit.framework */; };
+		E20000092000000000000001 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20000082000000000000001 /* QuartzCore.framework */; };
+		E200000B2000000000000001 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E200000A2000000000000001 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E20000022000000000000001 /* VismaSoftwareNordicSaverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VismaSoftwareNordicSaverView.swift; sourceTree = "<group>"; };
+		E200000A2000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E200000C2000000000000001 /* VismaSoftwareNordicSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VismaSoftwareNordicSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20000042000000000000001 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		E20000062000000000000001 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E20000082000000000000001 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E20000102000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20000052000000000000001 /* ScreenSaver.framework in Frameworks */,
+				E20000072000000000000001 /* AppKit.framework in Frameworks */,
+				E20000092000000000000001 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E20000112000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				E20000122000000000000001 /* VismaSoftwareNordicSaver */,
+				E20000152000000000000001 /* Frameworks */,
+				E20000142000000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E20000142000000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E200000C2000000000000001 /* VismaSoftwareNordicSaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E20000152000000000000001 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E20000042000000000000001 /* ScreenSaver.framework */,
+				E20000062000000000000001 /* AppKit.framework */,
+				E20000082000000000000001 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E20000122000000000000001 /* VismaSoftwareNordicSaver */ = {
+			isa = PBXGroup;
+			children = (
+				E20000022000000000000001 /* VismaSoftwareNordicSaverView.swift */,
+				E200000A2000000000000001 /* Info.plist */,
+			);
+			path = VismaSoftwareNordicSaver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E20000162000000000000001 /* VismaSoftwareNordicSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20000202000000000000001 /* Build configuration list for PBXNativeTarget "VismaSoftwareNordicSaver" */;
+			buildPhases = (
+				E200001F2000000000000001 /* Copy Images */, 
+				E20000102000000000000001 /* Frameworks */,
+				E200001A2000000000000001 /* Sources */,
+				E200001C2000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VismaSoftwareNordicSaver;
+			productName = VismaSoftwareNordicSaver;
+			productReference = E200000C2000000000000001 /* VismaSoftwareNordicSaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E20000172000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				ORGANIZATIONNAME = Visma;
+			};
+			buildConfigurationList = E20000182000000000000001 /* Build configuration list for PBXProject "VismaSoftwareNordicSaver" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E20000112000000000000001;
+			productRefGroup = E20000142000000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E20000162000000000000001 /* VismaSoftwareNordicSaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E200001C2000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E200000B2000000000000001 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E200001F2000000000000001 /* Copy Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Images";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n# Copy repo images into bundle Resources/images\n# PROJECT_DIR is macos/VismaSoftwareNordicSaver/VismaSoftwareNordicSaver.xcodeproj\n# Repo images are at ../../images relative to PROJECT_DIR\nIMG_SRC=\"$PROJECT_DIR/../../images\"\nIMG_DST=\"$BUILT_PRODUCTS_DIR/$CONTENTS_FOLDER_PATH/Resources/images\"\nmkdir -p \"$IMG_DST\"\nif [ -d \"$IMG_SRC\" ]; then\n  rsync -a --delete \"$IMG_SRC/\" \"$IMG_DST/\"\nfi\n\n# Copy fonts from macos/VismaSoftwareNordicSaver/*.otf|*.ttf into bundle Resources/fonts\nFNT_SRC=\"$PROJECT_DIR/..\"\nFNT_DST=\"$BUILT_PRODUCTS_DIR/$CONTENTS_FOLDER_PATH/Resources/fonts\"\nmkdir -p \"$FNT_DST\"\nfor f in \"$FNT_SRC\"/*.ttf \"$FNT_SRC\"/*.otf \"$FNT_SRC\"/*.TTF \"$FNT_SRC\"/*.OTF; do\n  [ -e \"$f\" ] && cp \"$f\" \"$FNT_DST/\"\ndone\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E200001A2000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20000012000000000000001 /* VismaSoftwareNordicSaverView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E200001D2000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = VismaSoftwareNordicSaver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_BUNDLE_IDENTIFIER = com.visma.vsn.VismaSoftwareNordicSaver;
+				PRODUCT_NAME = VismaSoftwareNordicSaver;
+				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		E200001E2000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = VismaSoftwareNordicSaver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.visma.vsn.VismaSoftwareNordicSaver;
+				PRODUCT_NAME = VismaSoftwareNordicSaver;
+				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		E20000212000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+			};
+			name = Debug;
+		};
+		E20000222000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E20000182000000000000001 /* Build configuration list for PBXProject "VismaSoftwareNordicSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20000212000000000000001 /* Debug */,
+				E20000222000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E20000202000000000000001 /* Build configuration list for PBXNativeTarget "VismaSoftwareNordicSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E200001D2000000000000001 /* Debug */,
+				E200001E2000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = E20000172000000000000001 /* Project object */;
+}

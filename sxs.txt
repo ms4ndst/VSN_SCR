@@ -1,0 +1,32 @@
+﻿=================
+Begin Activation Context Generation.
+Input Parameter:
+	Flags = 0
+	ProcessorArchitecture = AMD64
+	CultureFallBacks = en-GB;en;en-US
+	ManifestPath = C:\Users\magnus.sandstrom\OneDrive - Visma Group - Internal IT\Code\Repo\VSN_SCR\dist\VismaSoftwareNordic.scr
+	AssemblyDirectory = C:\Users\magnus.sandstrom\OneDrive - Visma Group - Internal IT\Code\Repo\VSN_SCR\dist\
+	Application Config File = 
+-----------------
+INFO: Parsing Manifest File C:\Users\magnus.sandstrom\OneDrive - Visma Group - Internal IT\Code\Repo\VSN_SCR\dist\VismaSoftwareNordic.scr.
+	INFO: Manifest Definition Identity is CreativeScreensaver.app,version="1.0.0.0".
+	ERROR: Line 13: The element dpiAware appears as a child of element urn:schemas-microsoft-com:asm.v1^windowsSettings which is not supported by this version of Windows.
+ERROR: Activation Context generation failed.
+End Activation Context Generation.
+
+=================
+Begin Activation Context Generation.
+Input Parameter:
+	Flags = 0
+	ProcessorArchitecture = AMD64
+	CultureFallBacks = en-GB;en;en-US
+	ManifestPath = C:\Users\MAGNUS~1.SAN\ONEDRI~1\Code\Repo\VSN_SCR\dist\VISMAS~1.SCR
+	AssemblyDirectory = C:\Users\MAGNUS~1.SAN\ONEDRI~1\Code\Repo\VSN_SCR\dist\
+	Application Config File = 
+-----------------
+INFO: Parsing Manifest File C:\Users\MAGNUS~1.SAN\ONEDRI~1\Code\Repo\VSN_SCR\dist\VISMAS~1.SCR.
+	INFO: Manifest Definition Identity is CreativeScreensaver.app,version="1.0.0.0".
+	ERROR: Line 13: The element dpiAware appears as a child of element urn:schemas-microsoft-com:asm.v1^windowsSettings which is not supported by this version of Windows.
+ERROR: Activation Context generation failed.
+End Activation Context Generation.
+

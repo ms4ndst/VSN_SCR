@@ -1,0 +1,187 @@
+﻿=================
+Begin Activation Context Generation.
+Input Parameter:
+	Flags = 0
+	ProcessorArchitecture = AMD64
+	CultureFallBacks = en-GB;en;en-US
+	ManifestPath = C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.36\DirectWriteForwarder.dll
+	AssemblyDirectory = C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.36\
+	Application Config File = 
+-----------------
+INFO: Parsing Manifest File C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.36\DirectWriteForwarder.dll.
+	INFO: Manifest Definition Identity is (null).
+INFO: Activation Context generation succeeded.
+End Activation Context Generation.
+
+=================
+Begin Activation Context Generation.
+Input Parameter:
+	Flags = 0
+	ProcessorArchitecture = AMD64
+	CultureFallBacks = en-GB;en;en-US
+	ManifestPath = C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.36\PresentationNative_cor3.dll
+	AssemblyDirectory = C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.36\
+	Application Config File = 
+-----------------
+INFO: Parsing Manifest File C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.36\PresentationNative_cor3.dll.
+	INFO: Manifest Definition Identity is (null).
+INFO: Activation Context generation succeeded.
+End Activation Context Generation.
+
+=================
+Begin Activation Context Generation.
+Input Parameter:
+	Flags = 0
+	ProcessorArchitecture = AMD64
+	CultureFallBacks = en-GB;en;en-US
+	ManifestPath = C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.36\System.Windows.Forms.dll
+	AssemblyDirectory = C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.36\
+	Application Config File = 
+-----------------
+INFO: Parsing Manifest File C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.36\System.Windows.Forms.dll.
+	INFO: Manifest Definition Identity is (null).
+	INFO: Reference: Microsoft.Windows.Common-Controls,language="&#x2a;",processorArchitecture="&#x2a;",publicKeyToken="6595b64144ccf1df",type="win32",version="6.0.0.0"
+INFO: Resolving reference Microsoft.Windows.Common-Controls,language="&#x2a;",processorArchitecture="&#x2a;",publicKeyToken="6595b64144ccf1df",type="win32",version="6.0.0.0".
+	INFO: Resolving reference for ProcessorArchitecture AMD64.
+		INFO: Resolving reference for culture en-GB.
+			INFO: Applying Binding Policy.
+				INFO: No publisher policy found.
+				INFO: No binding policy redirect found.
+			INFO: Begin assembly probing.
+				INFO: Did not find the assembly in WinSxS.
+				INFO: Attempt to probe manifest at C:\WINDOWS\assembly\GAC_64\Microsoft.Windows.Common-Controls\6.0.0.0_en-GB_6595b64144ccf1df\Microsoft.Windows.Common-Controls.DLL.
+				INFO: Did not find manifest for culture en-GB.
+			INFO: End assembly probing.
+		INFO: Resolving reference for culture en.
+			INFO: Applying Binding Policy.
+				INFO: No publisher policy found.
+				INFO: No binding policy redirect found.
+			INFO: Begin assembly probing.
+				INFO: Did not find the assembly in WinSxS.
+				INFO: Attempt to probe manifest at C:\WINDOWS\assembly\GAC_64\Microsoft.Windows.Common-Controls\6.0.0.0_en_6595b64144ccf1df\Microsoft.Windows.Common-Controls.DLL.
+				INFO: Did not find manifest for culture en.
+			INFO: End assembly probing.
+		INFO: Resolving reference for culture en-US.
+			INFO: Applying Binding Policy.
+				INFO: No publisher policy found.
+				INFO: No binding policy redirect found.
+			INFO: Begin assembly probing.
+				INFO: Did not find the assembly in WinSxS.
+				INFO: Attempt to probe manifest at C:\WINDOWS\assembly\GAC_64\Microsoft.Windows.Common-Controls\6.0.0.0_en-US_6595b64144ccf1df\Microsoft.Windows.Common-Controls.DLL.
+				INFO: Did not find manifest for culture en-US.
+			INFO: End assembly probing.
+		INFO: Resolving reference for culture Neutral.
+			INFO: Applying Binding Policy.
+				INFO: Auto Servicing Policy redirected assembly version.
+				INFO: Post policy assembly identity is Microsoft.Windows.Common-Controls,processorArchitecture="AMD64",publicKeyToken="6595b64144ccf1df",type="win32",version="6.0.26100.7262".
+			INFO: Begin assembly probing.
+				INFO: Attempt to probe manifest at C:\WINDOWS\WinSxS\manifests\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.7262_none_3e0ca042e3308496.manifest.
+				INFO: Manifest found at C:\WINDOWS\WinSxS\manifests\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.7262_none_3e0ca042e3308496.manifest.
+			INFO: End assembly probing.
+INFO: Resolving reference Microsoft.Windows.Common-Controls.mui,language="&#x2a;",processorArchitecture="AMD64",publicKeyToken="6595b64144ccf1df",type="win32",version="6.0.26100.7262".
+	INFO: Resolving reference for ProcessorArchitecture AMD64.
+		INFO: Resolving reference for culture en-GB.
+			INFO: Applying Binding Policy.
+				INFO: No publisher policy found.
+				INFO: No binding policy redirect found.
+			INFO: Begin assembly probing.
+				INFO: Did not find the assembly in WinSxS.
+				INFO: Attempt to probe manifest at C:\WINDOWS\assembly\GAC_64\Microsoft.Windows.Common-Controls.mui\6.0.26100.7262_en-GB_6595b64144ccf1df\Microsoft.Windows.Common-Controls.mui.DLL.
+				INFO: Did not find manifest for culture en-GB.
+			INFO: End assembly probing.
+		INFO: Resolving reference for culture en.
+			INFO: Applying Binding Policy.
+				INFO: No publisher policy found.
+				INFO: No binding policy redirect found.
+			INFO: Begin assembly probing.
+				INFO: Did not find the assembly in WinSxS.
+				INFO: Attempt to probe manifest at C:\WINDOWS\assembly\GAC_64\Microsoft.Windows.Common-Controls.mui\6.0.26100.7262_en_6595b64144ccf1df\Microsoft.Windows.Common-Controls.mui.DLL.
+				INFO: Did not find manifest for culture en.
+			INFO: End assembly probing.
+		INFO: Resolving reference for culture en-US.
+			INFO: Applying Binding Policy.
+				INFO: No publisher policy found.
+				INFO: No binding policy redirect found.
+			INFO: Begin assembly probing.
+				INFO: Did not find the assembly in WinSxS.
+				INFO: Attempt to probe manifest at C:\WINDOWS\assembly\GAC_64\Microsoft.Windows.Common-Controls.mui\6.0.26100.7262_en-US_6595b64144ccf1df\Microsoft.Windows.Common-Controls.mui.DLL.
+				INFO: Did not find manifest for culture en-US.
+			INFO: End assembly probing.
+INFO: Parsing Manifest File C:\WINDOWS\WinSxS\manifests\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.7262_none_3e0ca042e3308496.manifest.
+	INFO: Manifest Definition Identity is Microsoft.Windows.Common-Controls,processorArchitecture="amd64",publicKeyToken="6595b64144ccf1df",type="win32",version="6.0.26100.7262".
+	INFO: Reference: Microsoft.Windows.Common-Controls.Resources,language="&#x2a;",processorArchitecture="amd64",publicKeyToken="6595b64144ccf1df",type="win32",version="6.0.0.0"
+INFO: Resolving reference Microsoft.Windows.Common-Controls.Resources,language="&#x2a;",processorArchitecture="amd64",publicKeyToken="6595b64144ccf1df",type="win32",version="6.0.0.0".
+	INFO: Resolving reference for ProcessorArchitecture amd64.
+		INFO: Resolving reference for culture en-GB.
+			INFO: Applying Binding Policy.
+				INFO: Auto Servicing Policy redirected assembly version.
+				INFO: Post policy assembly identity is Microsoft.Windows.Common-Controls.Resources,language="en-GB",processorArchitecture="amd64",publicKeyToken="6595b64144ccf1df",type="win32",version="6.0.26100.1591".
+			INFO: Begin assembly probing.
+				INFO: Attempt to probe manifest at C:\WINDOWS\WinSxS\manifests\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.26100.1591_en-gb_4c9239e014ab472b.manifest.
+				INFO: Manifest found at C:\WINDOWS\WinSxS\manifests\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.26100.1591_en-gb_4c9239e014ab472b.manifest.
+			INFO: End assembly probing.
+INFO: Parsing Manifest File C:\WINDOWS\WinSxS\manifests\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.26100.1591_en-gb_4c9239e014ab472b.manifest.
+	INFO: Manifest Definition Identity is Microsoft.Windows.Common-Controls.Resources,language="en-GB",processorArchitecture="amd64",publicKeyToken="6595b64144ccf1df",type="win32",version="6.0.26100.1591".
+INFO: Activation Context generation succeeded.
+End Activation Context Generation.
+
+=================
+Begin Activation Context Generation.
+Input Parameter:
+	Flags = 0
+	ProcessorArchitecture = AMD64
+	CultureFallBacks = en-GB;en;en-US
+	ManifestPath = C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.36\wpfgfx_cor3.dll
+	AssemblyDirectory = C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.36\
+	Application Config File = 
+-----------------
+INFO: Parsing Manifest File C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.36\wpfgfx_cor3.dll.
+	INFO: Manifest Definition Identity is (null).
+INFO: Activation Context generation succeeded.
+End Activation Context Generation.
+
+=================
+Begin Activation Context Generation.
+Input Parameter:
+	Flags = 0
+	ProcessorArchitecture = AMD64
+	CultureFallBacks = en-GB;en;en-US
+	ManifestPath = C:\WINDOWS\SYSTEM32\ControlLib.dll
+	AssemblyDirectory = C:\WINDOWS\SYSTEM32\
+	Application Config File = 
+-----------------
+INFO: Parsing Manifest File C:\WINDOWS\SYSTEM32\ControlLib.dll.
+	INFO: Manifest Definition Identity is (null).
+INFO: Activation Context generation succeeded.
+End Activation Context Generation.
+
+=================
+Begin Activation Context Generation.
+Input Parameter:
+	Flags = 0
+	ProcessorArchitecture = AMD64
+	CultureFallBacks = en-GB;en;en-US
+	ManifestPath = C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_1428487d11dec111\igd9dxva64.dll
+	AssemblyDirectory = C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_1428487d11dec111\
+	Application Config File = 
+-----------------
+INFO: Parsing Manifest File C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_1428487d11dec111\igd9dxva64.dll.
+	INFO: Manifest Definition Identity is (null).
+INFO: Activation Context generation succeeded.
+End Activation Context Generation.
+
+=================
+Begin Activation Context Generation.
+Input Parameter:
+	Flags = 0
+	ProcessorArchitecture = AMD64
+	CultureFallBacks = en-GB;en;en-US
+	ManifestPath = C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.36\PenIMC_cor3.dll
+	AssemblyDirectory = C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.36\
+	Application Config File = 
+-----------------
+INFO: Parsing Manifest File C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\6.0.36\PenIMC_cor3.dll.
+	INFO: Manifest Definition Identity is (null).
+INFO: Activation Context generation succeeded.
+End Activation Context Generation.
+

@@ -1,0 +1,26 @@
+# Build outputs
+CreativeScreensaver/bin/
+CreativeScreensaver/obj/
+CreativeScreensaver/dist/
+
+# macOS build
+macos/VismaSoftwareNordicSaver/build/
+macos/VismaSoftwareNordicSaver/DerivedData/
+macos/VismaSoftwareNordicSaver/*.xcodeproj/xcuserdata/
+macos/VismaSoftwareNordicSaver/*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+
+# Rider
+.idea/
+
+# macOS
+.DS_Store
+*.swp

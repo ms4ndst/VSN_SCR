@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>VismaSoftwareNordic</AssemblyName>
+    <RootNamespace>VismaSoftwareNordic</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+    <EmbeddedResource Include="..\images\*.png" />
+    <EmbeddedResource Include="..\images\*.jpg" />
+    <EmbeddedResource Include="..\images\*.jpeg" />
+    <EmbeddedResource Include="..\images\*.bmp" />
+    <EmbeddedResource Include="..\images\*.gif" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,32 @@
+<Window x:Class="VismaSoftwareNordic.ScreensaverWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Style="{DynamicResource FullscreenWindowStyle}"
+        ShowActivated="True"
+        Focusable="True"
+        Title="Screensaver"
+        Loaded="Window_Loaded"
+        KeyDown="Window_KeyDown"
+        MouseMove="Window_MouseMove"
+        MouseDown="Window_MouseDown">
+    <Grid>
+        <Grid.Background>
+            <SolidColorBrush Color="#000000" />
+        </Grid.Background>
+        <Canvas x:Name="RootCanvas" ClipToBounds="True">
+            <!-- Image layers and particles will be injected here dynamically -->
+        </Canvas>
+        <Grid x:Name="Overlay" IsHitTestVisible="False">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,24" Opacity="0.09">
+                <TextBlock Text="Visma Software Nordic" Foreground="White" FontSize="14" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
