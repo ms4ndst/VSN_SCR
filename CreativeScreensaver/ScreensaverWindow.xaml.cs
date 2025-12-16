@@ -142,8 +142,15 @@ namespace VismaSoftwareNordic
             catch { }
             finally
             {
-                // Force immediate process termination
-                Environment.Exit(0);
+                // Kill the current process hard (bypasses any lingering async operations)
+                try
+                {
+                    System.Diagnostics.Process.GetCurrentProcess().Kill();
+                }
+                catch
+                {
+                    Environment.Exit(0);
+                }
             }
         }
 

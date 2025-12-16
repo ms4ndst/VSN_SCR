@@ -47,9 +47,39 @@ namespace VismaSoftwareNordic
                     _timer.Stop();
                     _timer.IsEnabled = false;
                 }
-                _imageLayer?.Children.Clear();
-                _particleLayer?.Children.Clear();
-                _root?.Children.Clear();
+                
+                // Stop all running animations and storyboards on all elements
+                if (_imageLayer != null)
+                {
+                    foreach (UIElement child in _imageLayer.Children)
+                    {
+                        child.BeginAnimation(UIElement.OpacityProperty, null);
+                        if (child is System.Windows.Controls.Image img) img.RenderTransform?.BeginAnimation(TransformGroup.ChildrenProperty, null);
+                        if (child is Grid grid)
+                        {
+                            foreach (UIElement sub in grid.Children)
+                            {
+                                sub.BeginAnimation(UIElement.OpacityProperty, null);
+                            }
+                        }
+                    }
+                    _imageLayer.Children.Clear();
+                }
+                
+                if (_particleLayer != null)
+                {
+                    foreach (UIElement child in _particleLayer.Children)
+                    {
+                        child.BeginAnimation(Canvas.LeftProperty, null);
+                        child.BeginAnimation(Canvas.TopProperty, null);
+                    }
+                    _particleLayer.Children.Clear();
+                }
+                
+                if (_root != null)
+                {
+                    _root.Children.Clear();
+                }
             }
             catch { }
         }
