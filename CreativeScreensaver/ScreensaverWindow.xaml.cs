@@ -66,6 +66,11 @@ namespace VismaSoftwareNordic
             StartShow();
         }
 
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            try { _animator?.Stop(); } catch { }
+        }
+
         private void StartShow()
         {
             var settings = Settings.Load();
@@ -123,11 +128,25 @@ namespace VismaSoftwareNordic
 
         private static void CloseAll()
         {
-            foreach (Window w in System.Windows.Application.Current.Windows)
+            try
             {
-                w.Close();
+                var app = System.Windows.Application.Current;
+                if (app != null)
+                {
+                    var windows = app.Windows.Cast<Window>().ToList();
+                    foreach (var w in windows)
+                    {
+                        try { w.Close(); } catch { }
+                    }
+                }
             }
-            System.Windows.Application.Current.Shutdown();
+            catch { }
+            finally
+            {
+                // Force immediate exit after a short delay to allow cleanup
+                System.Threading.Thread.Sleep(100);
+                Environment.Exit(0);
+            }
         }
 
         #region Win32

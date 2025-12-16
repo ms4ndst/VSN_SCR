@@ -38,6 +38,16 @@ namespace VismaSoftwareNordic
             _root.SizeChanged += (s, e) => { _viewport = new System.Windows.Size(_root.ActualWidth, _root.ActualHeight); };
         }
 
+        public void Stop()
+        {
+            if (_timer != null)
+            {
+                _timer.Stop();
+            }
+            _imageLayer?.Children.Clear();
+            _particleLayer?.Children.Clear();
+        }
+
         public void Start(List<string> files, Settings settings)
         {
             _settings = settings;

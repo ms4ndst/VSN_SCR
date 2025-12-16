@@ -38,10 +38,9 @@ namespace VismaSoftwareNordic
                     var s = JsonSerializer.Deserialize<Settings>(json);
                     if (s != null)
                     {
-                        if (string.IsNullOrWhiteSpace(s.ImagesFolder))
-                        {
-                            s.ImagesFolder = DefaultImagesFolder();
-                        }
+                        // Locked build: force embedded images regardless of old settings
+                        s.UseEmbeddedImages = true;
+                        s.ImagesFolder = string.Empty;
                         return s;
                     }
                 }
@@ -50,7 +49,7 @@ namespace VismaSoftwareNordic
 
             return new Settings
             {
-                ImagesFolder = DefaultImagesFolder(),
+                ImagesFolder = string.Empty,
                 SlideDurationSeconds = 8,
                 TransitionSeconds = 2,
                 RandomizeOrder = true,
