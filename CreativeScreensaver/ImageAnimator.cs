@@ -40,12 +40,18 @@ namespace VismaSoftwareNordic
 
         public void Stop()
         {
-            if (_timer != null)
+            try
             {
-                _timer.Stop();
+                if (_timer != null)
+                {
+                    _timer.Stop();
+                    _timer.IsEnabled = false;
+                }
+                _imageLayer?.Children.Clear();
+                _particleLayer?.Children.Clear();
+                _root?.Children.Clear();
             }
-            _imageLayer?.Children.Clear();
-            _particleLayer?.Children.Clear();
+            catch { }
         }
 
         public void Start(List<string> files, Settings settings)

@@ -133,8 +133,7 @@ namespace VismaSoftwareNordic
                 var app = System.Windows.Application.Current;
                 if (app != null)
                 {
-                    var windows = app.Windows.Cast<Window>().ToList();
-                    foreach (var w in windows)
+                    foreach (Window w in app.Windows.Cast<Window>().ToList())
                     {
                         try { w.Close(); } catch { }
                     }
@@ -143,8 +142,7 @@ namespace VismaSoftwareNordic
             catch { }
             finally
             {
-                // Force immediate exit after a short delay to allow cleanup
-                System.Threading.Thread.Sleep(100);
+                // Force immediate process termination
                 Environment.Exit(0);
             }
         }
